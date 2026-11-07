@@ -2,7 +2,7 @@
 
 A tool that improves the game for colorblind players. It applies a color-correction filter to the game screen, which players can set up with a quick guided questionnaire or tune by hand.
 
-Made by AVA Creation.
+Made by [AVA Creation](https://avacreation.com/).
 
 ## Features
 
