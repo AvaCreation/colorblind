@@ -18,17 +18,26 @@ Made by [AVA Creation](https://avacreation.com/).
 
 ## Installation
 
-1. Put the folder in your `resources/` directory.
+### Option A: from the release (recommended, prebuilt)
+
+1. Download the zip from the [latest release](https://github.com/AvaCreation/colorblind/releases/latest).
+2. Extract it and put the `colorblind` folder in your `resources/` directory.
+3. Add this to your `server.cfg`:
+   ```
+   ensure colorblind
+   ```
+4. Run `/colorblind` in game to open the menu.
+
+### Option B: from the source code
+
+1. Clone or download the repository and put the folder in your `resources/` directory (name it `colorblind`).
 2. Build the UI (it is not shipped prebuilt):
    ```
    cd web
    bun install
    bun run build
    ```
-3. Add this to your `server.cfg`:
-   ```
-   ensure colorblind
-   ```
+3. Add `ensure colorblind` to your `server.cfg`.
 4. Run `/colorblind` in game to open the menu.
 
 ## Configuration
